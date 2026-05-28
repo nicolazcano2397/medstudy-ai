@@ -1578,8 +1578,7 @@ function loadDemo(){
 function clearAll(){
   PERIODS.forEach(p=>{pageFiles[p.key]=null;kwFiles[p.key]=null;delete pageData[p.key];delete kwData[p.key];});
   brandList=DEFAULT_BRANDS; buildBrandsIndex(DEFAULT_BRANDS); brandFileLoaded=true;
-  buildBrandsIndex(DEFAULT_BRANDS);
-initUploadUI();
+  initUploadUI();
   checkAnalyzeBtn();
   document.getElementById('upload-screen').style.display='block';
   document.getElementById('dashboard').style.display='none';
@@ -1588,6 +1587,7 @@ initUploadUI();
 // =====================================================================
 // INIT
 // =====================================================================
+buildBrandsIndex(DEFAULT_BRANDS);
 initUploadUI();
 </script>
 </body>
