@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "sqlite:///./medstudy.db"
     CLAUDE_MODEL: str = "claude-sonnet-4-6"
     UPLOAD_DIR: str = "./uploads"
-    APP_PASSWORD: str = "medstudy2024"
+    APP_PASSWORD: str
 
     class Config:
         env_file = ".env"
