@@ -30,7 +30,7 @@ async def create_diagram(req: DiagramRequest, db: Session = Depends(get_db)):
     db.add(diagram); db.commit(); db.refresh(diagram)
     return {"id": diagram.id, "title": diagram.title, "mermaid_code": mermaid_code}
 
-@router.get("/")
+@router.get("")
 def list_diagrams(db: Session = Depends(get_db)):
     return db.query(Diagram).order_by(Diagram.created_at.desc()).all()
 

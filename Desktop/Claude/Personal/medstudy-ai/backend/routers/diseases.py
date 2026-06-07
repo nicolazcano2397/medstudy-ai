@@ -40,7 +40,7 @@ async def create_disease_card(req: DiseaseRequest, db: Session = Depends(get_db)
     db.add(disease); db.commit(); db.refresh(disease)
     return disease
 
-@router.get("/")
+@router.get("")
 def list_diseases(search: str = None, db: Session = Depends(get_db)):
     q = db.query(Disease)
     if search:

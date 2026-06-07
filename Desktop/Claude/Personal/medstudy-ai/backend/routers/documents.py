@@ -33,7 +33,7 @@ async def upload_document(
     return {"id": doc.id, "title": doc.title, "file_type": ext,
             "char_count": len(content), "preview": content[:300]}
 
-@router.get("/")
+@router.get("")
 def list_documents(folder_id: int = None, db: Session = Depends(get_db)):
     q = db.query(Document)
     if folder_id:

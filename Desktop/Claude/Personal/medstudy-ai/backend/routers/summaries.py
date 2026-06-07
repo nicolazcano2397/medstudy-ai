@@ -33,7 +33,7 @@ async def create_summary(req: SummaryRequest, db: Session = Depends(get_db)):
     db.add(summary); db.commit(); db.refresh(summary)
     return {"id": summary.id, "content": content, "summary_type": req.summary_type}
 
-@router.get("/")
+@router.get("")
 def list_summaries(document_id: int = None, db: Session = Depends(get_db)):
     q = db.query(Summary)
     if document_id:

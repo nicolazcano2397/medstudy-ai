@@ -91,7 +91,7 @@ async def evaluate_development(req: DevEvalRequest, db: Session = Depends(get_db
     db.add(attempt); db.commit()
     return feedback
 
-@router.get("/")
+@router.get("")
 def list_quizzes(db: Session = Depends(get_db)):
     return db.query(Quiz).order_by(Quiz.created_at.desc()).all()
 
