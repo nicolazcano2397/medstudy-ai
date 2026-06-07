@@ -133,7 +133,7 @@ Devuelve SOLO este JSON:
 "key_points": ["punto crítico 1", "punto crítico 2", "punto crítico 3"]
 }}"""
 
-    return await _call(prompt, max_tokens=3072)
+    return await _call(prompt, max_tokens=6000)
 
 async def evaluate_clinical_response(case: str, user_response: str, expected: dict) -> str:
     prompt = f"""Evalúa la respuesta de un estudiante de medicina (nivel internado) al siguiente caso clínico.

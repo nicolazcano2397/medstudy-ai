@@ -12,9 +12,17 @@ router = APIRouter(prefix="/quizzes", tags=["quizzes"])
 
 def _parse_json(raw: str) -> dict:
     raw = raw.strip()
-    raw = re.sub(r'^```(?:json)?\s*', '', raw)
-    raw = re.sub(r'\s*```$', '', raw)
-    return json.loads(raw)
+    # Strip markdown code fences anywhere in the string
+    raw = re.sub(r'```(?:json)?\s*', '', raw)
+    raw = raw.strip()
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        # Extract first JSON object or array from the string
+        match = re.search(r'(\{[\s\S]*\}|\[[\s\S]*\])', raw)
+        if match:
+            return json.loads(match.group(1))
+        raise
 
 class QuizRequest(BaseModel):
     topic: str
