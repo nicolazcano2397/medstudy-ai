@@ -1,0 +1,70 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: MedStudy
+        - paragraph [ref=e20]: AI · Local
+    - navigation [ref=e21]:
+      - link "Inicio" [ref=e22] [cursor=pointer]:
+        - /url: /
+        - img [ref=e23]
+        - text: Inicio
+      - link "Resúmenes" [ref=e26] [cursor=pointer]:
+        - /url: /summaries
+        - img [ref=e27]
+        - text: Resúmenes
+      - link "Diagramas" [ref=e30] [cursor=pointer]:
+        - /url: /diagrams
+        - img [ref=e31]
+        - text: Diagramas
+      - link "Enfermedades" [ref=e35] [cursor=pointer]:
+        - /url: /diseases
+        - img [ref=e36]
+        - text: Enfermedades
+      - link "Cuestionarios" [ref=e38] [cursor=pointer]:
+        - /url: /quizzes
+        - img [ref=e39]
+        - text: Cuestionarios
+      - link "Carpetas" [ref=e42] [cursor=pointer]:
+        - /url: /folders
+        - img [ref=e43]
+        - text: Carpetas
+    - generic [ref=e45]:
+      - button "Configuración" [ref=e46] [cursor=pointer]:
+        - img [ref=e47]
+        - text: Configuración
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: Modelo activo
+        - paragraph [ref=e52]: Claude Sonnet 4.6
+  - main [ref=e54]:
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - img [ref=e58]
+        - heading "Resúmenes" [level=1] [ref=e61]
+        - generic [ref=e62]:
+          - button "Generar" [ref=e63] [cursor=pointer]
+          - button "Historial (5)" [ref=e80] [cursor=pointer]
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - button "Pegar texto" [ref=e67] [cursor=pointer]
+          - button "Subir archivo" [ref=e68] [cursor=pointer]
+        - textbox "Pega aquí el texto médico..." [ref=e69]: La hipertensión arterial es una enfermedad crónica caracterizada por cifras de presión arterial iguales o superiores a 140/90 mmHg. Es el principal factor de riesgo cardiovascular modificable. Su tratamiento incluye cambios en el estilo de vida y fármacos como IECA, ARA-II, calcioantagonistas y diuréticos tiazídicos.
+        - generic [ref=e70]:
+          - button "Resumen ejecutivo" [ref=e71] [cursor=pointer]
+          - button "Puntos clave" [ref=e72] [cursor=pointer]
+          - button "Mecanismo / Fisiopatología" [ref=e73] [cursor=pointer]
+          - button "Flashcards Anki" [ref=e74] [cursor=pointer]
+        - button "Generar" [ref=e81] [cursor=pointer]
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - img [ref=e84]
+          - generic [ref=e87]: Resumen ejecutivo
+          - generic [ref=e88]:
+            - button "PDF" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - text: PDF
+            - button "TXT" [ref=e93] [cursor=pointer]:
+              - img [ref=e94]
+              - text: TXT
+        - paragraph [ref=e98]: "RESUMEN EJECUTIVO: HIPERTENSIÓN ARTERIAL 1. DEFINICIÓN Y CRITERIOS DIAGNÓSTICOS La hipertensión arterial (HTA) es una enfermedad crónica que se define por la presencia de cifras de presión arterial iguales o superiores a 140/90 mmHg. Su carácter crónico implica la necesidad de seguimiento y tratamiento sostenido a largo plazo. 2. RELEVANCIA COMO FACTOR DE RIESGO CARDIOVASCULAR La HTA constituye el principal factor de riesgo cardiovascular de naturaleza modificable. Este dato subraya su importancia epidemiológica y clínica, ya que su control adecuado tiene un impacto directo y significativo en la reducción de eventos cardiovasculares mayores, como infarto de miocardio, accidente cerebrovascular e insuficiencia cardíaca. 3. ESTRATEGIAS TERAPÉUTICAS El abordaje terapéutico de la HTA es de naturaleza dual e integra dos pilares fundamentales: 3.1. Modificaciones del Estilo de Vida Se reconocen los cambios en el estilo de vida como una intervención terapéutica de primera línea, aunque el texto no detalla las medidas específicas, estas comprenden habitualmente reducción del sodio, actividad física, control del peso y moderación del consumo de alcohol. 3.2. Tratamiento Farmacológico Se identifican cuatro grandes grupos de fármacos antihipertensivos con indicación establecida: - Inhibidores de la Enzima Convertidora de Angiotensina (IECA): actúan bloqueando la conversión de angiotensina I a angiotensina II. - Antagonistas de los Receptores de Angiotensina II (ARA-II): bloquean directamente el receptor de angiotensina II, con perfil de tolerabilidad favorable. - Calcioantagonistas: reducen la resistencia vascular periférica mediante el bloqueo de canales de calcio. - Diuréticos Tiazídicos: favorecen la natriuresis y reducen la volemia, constituyendo uno de los grupos de mayor tradición en el tratamiento antihipertensivo. 4. CONCLUSIÓN La hipertensión arterial representa una entidad de alta relevancia clínica y preventiva. Su manejo requiere un enfoque combinado que integre intervenciones no farmacológicas y farmacológicas, disponiendo de múltiples grupos terapéuticos con eficacia demostrada para el control de las cifras tensionales y la reducción del riesgo cardiovascular global."

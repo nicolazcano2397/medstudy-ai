@@ -1,0 +1,90 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: MedStudy
+        - paragraph [ref=e20]: AI · Local
+    - navigation [ref=e21]:
+      - link "Inicio" [ref=e22] [cursor=pointer]:
+        - /url: /
+        - img [ref=e23]
+        - text: Inicio
+      - link "Resúmenes" [ref=e26] [cursor=pointer]:
+        - /url: /summaries
+        - img [ref=e27]
+        - text: Resúmenes
+      - link "Diagramas" [ref=e30] [cursor=pointer]:
+        - /url: /diagrams
+        - img [ref=e31]
+        - text: Diagramas
+      - link "Enfermedades" [ref=e35] [cursor=pointer]:
+        - /url: /diseases
+        - img [ref=e36]
+        - text: Enfermedades
+      - link "Cuestionarios" [ref=e38] [cursor=pointer]:
+        - /url: /quizzes
+        - img [ref=e39]
+        - text: Cuestionarios
+      - link "Carpetas" [ref=e42] [cursor=pointer]:
+        - /url: /folders
+        - img [ref=e43]
+        - text: Carpetas
+    - generic [ref=e45]:
+      - button "Configuración" [ref=e46] [cursor=pointer]:
+        - img [ref=e47]
+        - text: Configuración
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: Modelo activo
+        - paragraph [ref=e52]: Claude Sonnet 4.6
+  - main [ref=e54]:
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - img [ref=e59]
+        - generic [ref=e69]:
+          - heading "MedStudy AI" [level=1] [ref=e70]
+          - paragraph [ref=e71]: Tu asistente de estudio para medicina
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - paragraph [ref=e74]: "0"
+          - paragraph [ref=e75]: Resúmenes
+        - generic [ref=e76]:
+          - paragraph [ref=e77]: "0"
+          - paragraph [ref=e78]: Diagramas
+        - generic [ref=e79]:
+          - paragraph [ref=e80]: "0"
+          - paragraph [ref=e81]: Enfermedades
+        - generic [ref=e82]:
+          - paragraph [ref=e83]: "0"
+          - paragraph [ref=e84]: Cuestionarios
+      - generic [ref=e85]:
+        - link "Resúmenes Genera resúmenes, bullets y flashcards desde PDFs o texto" [ref=e86] [cursor=pointer]:
+          - /url: /summaries
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - generic [ref=e92]: Resúmenes
+          - paragraph [ref=e93]: Genera resúmenes, bullets y flashcards desde PDFs o texto
+        - link "Diagramas Visualiza fisiopatologías y procesos con diagramas automáticos" [ref=e94] [cursor=pointer]:
+          - /url: /diagrams
+          - generic [ref=e95]:
+            - img [ref=e97]
+            - generic [ref=e101]: Diagramas
+          - paragraph [ref=e102]: Visualiza fisiopatologías y procesos con diagramas automáticos
+        - link "Enfermedades Fichas completas de enfermedades con evidencia actualizada" [ref=e103] [cursor=pointer]:
+          - /url: /diseases
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - generic [ref=e108]: Enfermedades
+          - paragraph [ref=e109]: Fichas completas de enfermedades con evidencia actualizada
+        - link "Cuestionarios Preguntas tipo EUNACOM/MIR y casos clínicos con evaluación" [ref=e110] [cursor=pointer]:
+          - /url: /quizzes
+          - generic [ref=e111]:
+            - img [ref=e113]
+            - generic [ref=e116]: Cuestionarios
+          - paragraph [ref=e117]: Preguntas tipo EUNACOM/MIR y casos clínicos con evaluación
+        - link "Carpetas Organiza tu material de estudio por ramo o tema" [ref=e118] [cursor=pointer]:
+          - /url: /folders
+          - generic [ref=e119]:
+            - img [ref=e121]
+            - generic [ref=e123]: Carpetas
+          - paragraph [ref=e124]: Organiza tu material de estudio por ramo o tema

@@ -1,0 +1,101 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: MedStudy
+        - paragraph [ref=e20]: AI · Local
+    - navigation [ref=e21]:
+      - link "Inicio" [ref=e22] [cursor=pointer]:
+        - /url: /
+        - img [ref=e23]
+        - text: Inicio
+      - link "Resúmenes" [ref=e26] [cursor=pointer]:
+        - /url: /summaries
+        - img [ref=e27]
+        - text: Resúmenes
+      - link "Diagramas" [ref=e30] [cursor=pointer]:
+        - /url: /diagrams
+        - img [ref=e31]
+        - text: Diagramas
+      - link "Enfermedades" [ref=e35] [cursor=pointer]:
+        - /url: /diseases
+        - img [ref=e36]
+        - text: Enfermedades
+      - link "Cuestionarios" [ref=e38] [cursor=pointer]:
+        - /url: /quizzes
+        - img [ref=e39]
+        - text: Cuestionarios
+      - link "Carpetas" [ref=e42] [cursor=pointer]:
+        - /url: /folders
+        - img [ref=e43]
+        - text: Carpetas
+    - generic [ref=e45]:
+      - button "Configuración" [ref=e46] [cursor=pointer]:
+        - img [ref=e47]
+        - text: Configuración
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: Modelo activo
+        - paragraph [ref=e52]: Claude Sonnet 4.6
+  - main [ref=e54]:
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - img [ref=e58]
+        - heading "Resúmenes" [level=1] [ref=e61]
+        - generic [ref=e62]:
+          - button "Generar" [ref=e63] [cursor=pointer]
+          - button "Historial (4)" [ref=e80] [cursor=pointer]
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - button "Pegar texto" [ref=e67] [cursor=pointer]
+          - button "Subir archivo" [ref=e68] [cursor=pointer]
+        - textbox "Pega aquí el texto médico..." [ref=e69]: Los betabloqueantes son fármacos que bloquean los receptores beta-adrenérgicos. Se clasifican en cardioselectivos (metoprolol, atenolol, bisoprolol) que bloquean solo beta-1, y no selectivos (propranolol, carvedilol) que bloquean beta-1 y beta-2. Sus indicaciones incluyen hipertensión arterial, insuficiencia cardíaca, arritmias, angina de pecho y profilaxis de migraña. Los efectos adversos incluyen bradicardia, broncoespasmo (especialmente no selectivos), fatiga, hipoglicemia enmascarada y disfunción eréctil. Están contraindicados en asma bronquial, bloqueo AV de 2° y 3° grado, y bradicardia severa.
+        - generic [ref=e70]:
+          - button "Resumen ejecutivo" [ref=e71] [cursor=pointer]
+          - button "Puntos clave" [ref=e72] [cursor=pointer]
+          - button "Mecanismo / Fisiopatología" [ref=e73] [cursor=pointer]
+          - button "Flashcards Anki" [ref=e74] [cursor=pointer]
+        - button "Generar" [ref=e81] [cursor=pointer]
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - img [ref=e84]
+          - generic [ref=e87]: Flashcards Anki
+          - generic [ref=e88]:
+            - button "PDF" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - text: PDF
+            - button "TXT" [ref=e93] [cursor=pointer]:
+              - img [ref=e94]
+              - text: TXT
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]: Tarjeta 1 de 20
+            - generic [ref=e101]: Clic para voltear
+          - generic [ref=e103] [cursor=pointer]:
+            - paragraph [ref=e105]: ¿Cuál es el mecanismo de acción general de los betabloqueantes?
+            - paragraph [ref=e107]: Bloquean los receptores beta-adrenérgicos, inhibiendo los efectos de las catecolaminas (adrenalina y noradrenalina) sobre dichos receptores.
+          - generic [ref=e108]:
+            - button "← Anterior" [disabled] [ref=e109]
+            - button "Voltear" [ref=e110] [cursor=pointer]
+            - button "Siguiente →" [ref=e111] [cursor=pointer]
+          - generic [ref=e112]:
+            - button [ref=e113] [cursor=pointer]
+            - button [ref=e114] [cursor=pointer]
+            - button [ref=e115] [cursor=pointer]
+            - button [ref=e116] [cursor=pointer]
+            - button [ref=e117] [cursor=pointer]
+            - button [ref=e118] [cursor=pointer]
+            - button [ref=e119] [cursor=pointer]
+            - button [ref=e120] [cursor=pointer]
+            - button [ref=e121] [cursor=pointer]
+            - button [ref=e122] [cursor=pointer]
+            - button [ref=e123] [cursor=pointer]
+            - button [ref=e124] [cursor=pointer]
+            - button [ref=e125] [cursor=pointer]
+            - button [ref=e126] [cursor=pointer]
+            - button [ref=e127] [cursor=pointer]
+            - button [ref=e128] [cursor=pointer]
+            - button [ref=e129] [cursor=pointer]
+            - button [ref=e130] [cursor=pointer]
+            - button [ref=e131] [cursor=pointer]
+            - button [ref=e132] [cursor=pointer]

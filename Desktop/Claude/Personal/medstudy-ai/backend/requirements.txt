@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+anthropic
+python-dotenv
+PyMuPDF
+python-pptx
+python-multipart
+pydantic
+pydantic-settings
+python-docx
