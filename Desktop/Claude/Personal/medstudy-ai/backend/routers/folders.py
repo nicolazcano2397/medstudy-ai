@@ -12,7 +12,7 @@ class FolderCreate(BaseModel):
     description: Optional[str] = None
     parent_id: Optional[int] = None
 
-@router.post("")\1
+@router.post("")
 def create_folder(req: FolderCreate, db: Session = Depends(get_db)):
     folder = Folder(**req.dict())
     db.add(folder); db.commit(); db.refresh(folder)
